@@ -82,8 +82,11 @@ WSGI_APPLICATION = 'djangotestProj.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'testdjango',
+        'USER': 'root',
+        'PASSWORD': '123456',
+        'HOST': "127.0.0.1"
     }
 }
 
@@ -125,3 +128,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 STATIC_URL = '/static/'
+# STATIC_ROOT = '/static/'
+# 运行后没有添加css是因为只说明了目录名称，并没有指明查找的根路径，添加根路径
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static')
+]
