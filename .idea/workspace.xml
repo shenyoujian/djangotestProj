@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e7cdbbe-0616-4c5c-81ea-7fd8d96490c6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/style.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/message_form.html" />
-      <change beforePath="$PROJECT_DIR$/apps/message/views.py" afterPath="$PROJECT_DIR$/apps/message/views.py" />
-      <change beforePath="$PROJECT_DIR$/djangotestProj/settings.py" afterPath="$PROJECT_DIR$/djangotestProj/settings.py" />
-      <change beforePath="$PROJECT_DIR$/djangotestProj/urls.py" afterPath="$PROJECT_DIR$/djangotestProj/urls.py" />
+      <change beforePath="$PROJECT_DIR$/templates/message_form.html" afterPath="$PROJECT_DIR$/templates/message_form.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -268,6 +263,14 @@
       <option name="presentableId" value="Default" />
       <updated>1526396323369</updated>
     </task>
+    <task id="LOCAL-00001" summary="3-2">
+      <created>1526438504185</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1526438504185</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -301,6 +304,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="3-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="3-2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
